@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+body {
+  background-image: url('https://static.remove.bg/remove-bg-web/8fb1a6ef22fefc0b0866661b4c9b922515be4ae9/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: 100% 100%;
+
+}
+</style> 
+
+
+</head>
+<body>
+<div class="t1">
+	Online Clothing Store
+</div>
+<div class="t2">
+	For Fashion Lovers 
+</div>
+
+
+
+<div class="navbar">
+	<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="home.html">Goto</a>
+	 <div class="dropdown">
+    <button class="dropbtn">Women
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Shirts</a>
+      <a href="#">Tops</a>
+      <a href="#">Inner Wear </a>
+      <a href="#">Bottom Wear</a>
+    </div>
+</div>
+
+
+
+
+<div class="dropdown1">
+    <button class="dropbtn1">Men
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown1-content">
+      <a href="#">T-Shirt</a>
+      <a href="#">Pants</a>
+      <a href="#">Inner Wear </a>
+      <a href="#">Jeans</a>
+    </div>
+</div>
+
+
+    <div class="dropdown2">
+    <button class="dropbtn2">Kids
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown2-content">
+      <a href="#">T-Shirt</a>
+      <a href="#">Pants</a>
+      <a href="#">shirt</a>
+      
+    </div>
+</div>
+
+<a class="active" href="#"><i class="fa fa-star"></i> Trends</a>
+
+
+<button class="so" style="float: right;">
+<a href="{% url 'homepage' %}">SHOP</a>
+ </button>
+<button class="xo" style="float:right;">	
+<a href="{% url 'nextt' %}">TRIAL ROOM</a>
+</button>	
+
+
+  <div class="topnavv"> 
+    <input type="text" placeholder="Search..">
+  </div>
+	
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
